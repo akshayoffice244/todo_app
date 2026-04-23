@@ -7,7 +7,7 @@ class Service2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding:  EdgeInsets.fromLTRB(0, 55, 0, 0),
+        padding:  EdgeInsets.fromLTRB(0, 60, 0, 0),
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
@@ -22,13 +22,13 @@ class Service2 extends StatelessWidget {
           //mainAxisAlignment: MainAxisAlignment.center,
           spacing: 65,
           children: [
-            Image.asset("assets/images/3d_clipboard.png", height: 297),
+            Image.asset("assets/images/3d_calendar.png", height: 297),
 
             SizedBox(
-              width: 264,
+              width: 274,
 
               child: Text(
-                "Plan your tasks to do, that way you’ll stay organized \nand you won’t skip any",
+                "Make a full schedule for \nthe whole week and stay organized and productive all days",
 
                 textAlign:TextAlign.center ,
             //  softWrap: true,
