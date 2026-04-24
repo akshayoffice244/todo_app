@@ -1,12 +1,18 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:todo_app/pages/servicepages/servicecontainer.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
 
+  Future<void> callNext(BuildContext context) async{
+    await Future.delayed(Duration(seconds: 5));
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_)=> ServiceContainer()));
+  }
   @override
   Widget build(BuildContext context) {
+      callNext(context);
     return Scaffold(
       body: Column(
         children: [
