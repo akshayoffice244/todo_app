@@ -3,6 +3,8 @@ import 'package:todo_app/pages/app.dart';
 
 import 'package:todo_app/pages/servicepages/service4.dart';
 import 'package:todo_app/pages/signin.dart';
+import 'package:todo_app/pages/signup.dart';
+import 'package:todo_app/pages/verificationpage.dart';
 
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SigninPage(),
+      home: VerificationPage(),
     );
   }
 }
